@@ -1,7 +1,9 @@
 body {
     background-color: rgb(0, 79, 128);
     font: normal 15pt arial;
+    margin-top: 200px;
 }
+
 
 header {
     color: white;
@@ -29,6 +31,27 @@ footer {
     text-align: center;
     font-style: italic;
 }
-#id567{
+
+#id567 {
     color: rgba(0, 0, 0, 0.488);
+}
+
+@media (max-width:580px) {
+    section {
+        width: 350px;
+    }
+}
+
+@media (max-width: 420px) {
+    header {
+        font-size: 15px;
+    }
+
+    section {
+        width: 260px;
+    }
+
+    img {
+        width: 200px;
+    }
 }
